@@ -26,11 +26,11 @@
         {
           "name": "qms-plugin-1.9.0.aar",
           "url": "qms-plugin-1.9.0.aar",
-          "size": 1750418,
-          "sha512": "238c778daeb4a970b5da63d437051eb53f7633253de778ca9937f0a6e123e9b962e7da3eaca2f336de00ca8ab246a5862f895caed13248b42190764846ab43fa",
-          "sha256": "bf4322859178bfb9cdeb9d2396a96d3c9a1f90a4df2dc315499f96e537a56a4c",
-          "sha1": "61bf8c751edf59e59a7e75089960ba79b483f71d",
-          "md5": "384f3ee72ef933262468eff1beb83038"
+          "size": 1750362,
+          "sha512": "99ee4c0cb8c293eabe68efbfd8d7efb3262c4b97d8c5241fa1b43bd7d5928e16cfc7666c9f79a2bbb97f80440441f35c9a527991a807a646c9e5cad9b802835d",
+          "sha256": "c6a59af662e8d7f61de88cac006b83f8e77c4b14f9ecca3a289fe56d0c816cea",
+          "sha1": "add42245e972cf49d98d69ad3aa08c4fb0900514",
+          "md5": "d5887b4edc355ca0f728708b581ac00f"
         }
       ]
     },
@@ -216,11 +216,11 @@
         {
           "name": "qms-plugin-1.9.0.aar",
           "url": "qms-plugin-1.9.0.aar",
-          "size": 1750418,
-          "sha512": "238c778daeb4a970b5da63d437051eb53f7633253de778ca9937f0a6e123e9b962e7da3eaca2f336de00ca8ab246a5862f895caed13248b42190764846ab43fa",
-          "sha256": "bf4322859178bfb9cdeb9d2396a96d3c9a1f90a4df2dc315499f96e537a56a4c",
-          "sha1": "61bf8c751edf59e59a7e75089960ba79b483f71d",
-          "md5": "384f3ee72ef933262468eff1beb83038"
+          "size": 1750362,
+          "sha512": "99ee4c0cb8c293eabe68efbfd8d7efb3262c4b97d8c5241fa1b43bd7d5928e16cfc7666c9f79a2bbb97f80440441f35c9a527991a807a646c9e5cad9b802835d",
+          "sha256": "c6a59af662e8d7f61de88cac006b83f8e77c4b14f9ecca3a289fe56d0c816cea",
+          "sha1": "add42245e972cf49d98d69ad3aa08c4fb0900514",
+          "md5": "d5887b4edc355ca0f728708b581ac00f"
         }
       ]
     }
