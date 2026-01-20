@@ -1,0 +1,235 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.convep.qms",
+    "module": "qms-plugin",
+    "version": "1.5.25",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "qms-plugin-1.5.25.aar",
+          "url": "qms-plugin-1.5.25.aar",
+          "size": 3376705,
+          "sha512": "2376de17b27c2eec328d58e5962254b0025dd481e422d91d2283d5edd1a94b4ed04cb91e4a77cf35b178b0d4f824d3485072c8d19b158873d45ec8954a7872a2",
+          "sha256": "30b83f75b200e4b0174a8dd6339146292079b38dc44ce85d62cb914d21bc645c",
+          "sha1": "c7e04969f2eab3d39fdc54442f3ff2011d2a2f76",
+          "md5": "9ac6b1c6d4420ec5ca50c39460ea267f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.facebook.react",
+          "module": "react-android",
+          "version": {
+            "requires": "0.72.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.github.chrisbanes",
+          "module": "PhotoView",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "org.imaginativeworld.whynotimagecarousel",
+          "module": "whynotimagecarousel",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "me.relex",
+          "module": "circleindicator",
+          "version": {
+            "requires": "2.1.6"
+          }
+        },
+        {
+          "group": "com.journeyapps",
+          "module": "zxing-android-embedded",
+          "version": {
+            "requires": "4.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qms-plugin-1.5.25.aar",
+          "url": "qms-plugin-1.5.25.aar",
+          "size": 3376705,
+          "sha512": "2376de17b27c2eec328d58e5962254b0025dd481e422d91d2283d5edd1a94b4ed04cb91e4a77cf35b178b0d4f824d3485072c8d19b158873d45ec8954a7872a2",
+          "sha256": "30b83f75b200e4b0174a8dd6339146292079b38dc44ce85d62cb914d21bc645c",
+          "sha1": "c7e04969f2eab3d39fdc54442f3ff2011d2a2f76",
+          "md5": "9ac6b1c6d4420ec5ca50c39460ea267f"
+        }
+      ]
+    }
+  ]
+}
