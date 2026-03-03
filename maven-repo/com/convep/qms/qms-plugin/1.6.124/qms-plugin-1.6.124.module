@@ -1,0 +1,242 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.convep.qms",
+    "module": "qms-plugin",
+    "version": "1.6.124",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "qms-plugin-1.6.124.aar",
+          "url": "qms-plugin-1.6.124.aar",
+          "size": 4040197,
+          "sha512": "d348a16b7430da883eb6fec6737f5bdac8d16022b688fe551d86abb6821b94882cdcd3a0941085f89a95fc3023106fc6e280d20759654863c0e6ee9f6f4cbc8c",
+          "sha256": "7711fad11efdeb2b584e4c09fe7c54fc93f9ccdef8d0e2d3683b51a6d92ebb9c",
+          "sha1": "96d5975c27ca84aac6c39bddd61802de29ca5ac1",
+          "md5": "e07e595b641761cc8142135b1a6ee48f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.facebook.react",
+          "module": "react-android",
+          "version": {
+            "requires": "0.72.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.github.chrisbanes",
+          "module": "PhotoView",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "org.imaginativeworld.whynotimagecarousel",
+          "module": "whynotimagecarousel",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "me.relex",
+          "module": "circleindicator",
+          "version": {
+            "requires": "2.1.6"
+          }
+        },
+        {
+          "group": "com.journeyapps",
+          "module": "zxing-android-embedded",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "com.kizitonwose.calendar",
+          "module": "view",
+          "version": {
+            "requires": "2.5.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qms-plugin-1.6.124.aar",
+          "url": "qms-plugin-1.6.124.aar",
+          "size": 4040197,
+          "sha512": "d348a16b7430da883eb6fec6737f5bdac8d16022b688fe551d86abb6821b94882cdcd3a0941085f89a95fc3023106fc6e280d20759654863c0e6ee9f6f4cbc8c",
+          "sha256": "7711fad11efdeb2b584e4c09fe7c54fc93f9ccdef8d0e2d3683b51a6d92ebb9c",
+          "sha1": "96d5975c27ca84aac6c39bddd61802de29ca5ac1",
+          "md5": "e07e595b641761cc8142135b1a6ee48f"
+        }
+      ]
+    }
+  ]
+}
