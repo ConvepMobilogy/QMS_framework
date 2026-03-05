@@ -9,7 +9,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.convep.qms</groupId>
   <artifactId>qms-plugin</artifactId>
-  <version>1.15.103</version>
+  <version>1.15.105</version>
   <packaging>aar</packaging>
   <name>QMS Plugin</name>
   <description>Closed-source QMS plugin</description>
