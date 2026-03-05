@@ -3,7 +3,7 @@
   "component": {
     "group": "com.convep.qms",
     "module": "qms-plugin",
-    "version": "1.15.102",
+    "version": "1.15.103",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -24,13 +24,13 @@
       },
       "files": [
         {
-          "name": "qms-plugin-1.15.102.aar",
-          "url": "qms-plugin-1.15.102.aar",
-          "size": 4055423,
-          "sha512": "2324d8783a2df432b5cefa74525dc3d6fdc0ecc5fe4fa4ceb74e6532b50802670f8b11344f0f53e93c2905f90b00e2fda68a524e866376118a91d3b7115490f7",
-          "sha256": "e57f6b70379fbe4b17482304277e90457055346a21a443d29edb9506b8b58271",
-          "sha1": "f89b572108c2256ed94a22b939a03579a4a3a5d2",
-          "md5": "751615aeb36dd5fbb7465862417ea4db"
+          "name": "qms-plugin-1.15.103.aar",
+          "url": "qms-plugin-1.15.103.aar",
+          "size": 4055427,
+          "sha512": "b123f8d7edf9e3e8ad529dc3ce89ed7c0b4cee71d00dcb0e2e71224f9d857cbdb8915aae7cc6b39d0a52ca7beaec949c40a47c81945334a2ca92c75c2a0298fb",
+          "sha256": "61181b252be3e8631de2d95346a3acae4231db1c221f37086f96f4c66428c148",
+          "sha1": "a6871dce557e97df01095313dcc8b035a9756bce",
+          "md5": "56b2d751b344c64964bcc9c80130cedb"
         }
       ]
     },
@@ -228,13 +228,13 @@
       ],
       "files": [
         {
-          "name": "qms-plugin-1.15.102.aar",
-          "url": "qms-plugin-1.15.102.aar",
-          "size": 4055423,
-          "sha512": "2324d8783a2df432b5cefa74525dc3d6fdc0ecc5fe4fa4ceb74e6532b50802670f8b11344f0f53e93c2905f90b00e2fda68a524e866376118a91d3b7115490f7",
-          "sha256": "e57f6b70379fbe4b17482304277e90457055346a21a443d29edb9506b8b58271",
-          "sha1": "f89b572108c2256ed94a22b939a03579a4a3a5d2",
-          "md5": "751615aeb36dd5fbb7465862417ea4db"
+          "name": "qms-plugin-1.15.103.aar",
+          "url": "qms-plugin-1.15.103.aar",
+          "size": 4055427,
+          "sha512": "b123f8d7edf9e3e8ad529dc3ce89ed7c0b4cee71d00dcb0e2e71224f9d857cbdb8915aae7cc6b39d0a52ca7beaec949c40a47c81945334a2ca92c75c2a0298fb",
+          "sha256": "61181b252be3e8631de2d95346a3acae4231db1c221f37086f96f4c66428c148",
+          "sha1": "a6871dce557e97df01095313dcc8b035a9756bce",
+          "md5": "56b2d751b344c64964bcc9c80130cedb"
         }
       ]
     }
