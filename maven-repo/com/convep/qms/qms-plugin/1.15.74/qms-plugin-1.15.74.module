@@ -1,0 +1,249 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.convep.qms",
+    "module": "qms-plugin",
+    "version": "1.15.74",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "qms-plugin-1.15.74.aar",
+          "url": "qms-plugin-1.15.74.aar",
+          "size": 4145307,
+          "sha512": "26f0d4e238f4c62faeaa20e78417f7015f353281c4d9bb01c5f10ba0127487a1336e39545475ee901471a24a54881682c2558bfcbff66961d505535b9ff98902",
+          "sha256": "96ba2c223690674979337b6b57ba9b55987be01d48cc5d0d993ccfd6c2a49404",
+          "sha1": "3e53f11f956f1112ae1e0a74a2df0a903bddce25",
+          "md5": "5ab0634e8ddab717531cccb29b88e2cc"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.13.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.2.1"
+          }
+        },
+        {
+          "group": "com.facebook.react",
+          "module": "react-android",
+          "version": {
+            "requires": "0.72.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.swiperefreshlayout",
+          "module": "swiperefreshlayout",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.github.chrisbanes",
+          "module": "PhotoView",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel",
+          "version": {
+            "requires": "2.8.2"
+          }
+        },
+        {
+          "group": "androidx.room",
+          "module": "room-runtime",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.16.0"
+          }
+        },
+        {
+          "group": "org.imaginativeworld.whynotimagecarousel",
+          "module": "whynotimagecarousel",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "me.relex",
+          "module": "circleindicator",
+          "version": {
+            "requires": "2.1.6"
+          }
+        },
+        {
+          "group": "com.journeyapps",
+          "module": "zxing-android-embedded",
+          "version": {
+            "requires": "4.3.0"
+          }
+        },
+        {
+          "group": "com.kizitonwose.calendar",
+          "module": "view",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.github.mhiew",
+          "module": "android-pdf-viewer",
+          "version": {
+            "requires": "3.2.0-beta.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qms-plugin-1.15.74.aar",
+          "url": "qms-plugin-1.15.74.aar",
+          "size": 4145307,
+          "sha512": "26f0d4e238f4c62faeaa20e78417f7015f353281c4d9bb01c5f10ba0127487a1336e39545475ee901471a24a54881682c2558bfcbff66961d505535b9ff98902",
+          "sha256": "96ba2c223690674979337b6b57ba9b55987be01d48cc5d0d993ccfd6c2a49404",
+          "sha1": "3e53f11f956f1112ae1e0a74a2df0a903bddce25",
+          "md5": "5ab0634e8ddab717531cccb29b88e2cc"
+        }
+      ]
+    }
+  ]
+}
